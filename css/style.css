@@ -1,0 +1,83 @@
+/* Start Body  */
+body {
+    background-color: green;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 53, 8);
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* Start Debug  */
+.bg-gold {
+    background-color:lightgreen;
+}
+
+.bg-pink {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: lightpink;
+}
+/* End Debug */
+/* Start Container  */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.menu-primer ul {
+    background-color: white;
+    border-radius: 5px;
+   
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li{
+    border-right: 1px solid black;
+    display: inline-block;
+    margin: 0px 30px; 
+    padding-right: 0 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+
+.menu-primer a {
+    color: rgb(29, 70, 29);
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+
+}
+
+.menu-primer a:hover {
+    background-color: green;
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu-primer .active {
+    background-color: lightgreen;
+    color: rgb(29, 70, 29);
+    text-decoration: none;
+}
+
+.box-heading {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px 3px 0 0;
+    
+}
